@@ -43,6 +43,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Notatka nie może być pusta"),
         "please_ensure_the_date_is_valid": MessageLookupByLibrary.simpleMessage(
             "Proszę upewnić się, że data jest prawidłowa"),
+        "random_failure_message":
+            MessageLookupByLibrary.simpleMessage("Komunikat o błędzie losowym"),
         "save": MessageLookupByLibrary.simpleMessage("Zapisz"),
         "this_field_is_required":
             MessageLookupByLibrary.simpleMessage("To pole jest wymagane"),

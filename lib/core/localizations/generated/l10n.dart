@@ -191,6 +191,16 @@ class AppText {
       args: [],
     );
   }
+
+  /// `Random failure message`
+  String get random_failure_message {
+    return Intl.message(
+      'Random failure message',
+      name: 'random_failure_message',
+      desc: 'The text of the error message when a random failure occurs',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppText> {

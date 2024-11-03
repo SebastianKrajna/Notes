@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:notes/common/indicator/dots_indicator.dart';
 import 'package:notes/core/localizations/generated/l10n.dart';
 import 'package:notes/core/toast/app_toast.dart';
 import 'package:notes/features/notes/presentation/add_note/bloc/add_note_bloc.dart';
@@ -47,7 +48,11 @@ class _AddNotePageState extends State<AddNotePage> {
                       child: SizedBox(
                         width: 24,
                         height: 24,
-                        child: CircularProgressIndicator(strokeWidth: 2),
+                        child: DotsIndicator(
+                          radiusMax: 10,
+                          radiusMin: 2,
+                          dotRadius: 2,
+                        ),
                       ),
                     ),
                   );
@@ -70,7 +75,7 @@ class _AddNotePageState extends State<AddNotePage> {
           child: Form(
             key: formKey,
             child: TextFormField(
-              maxLines: 3,
+              maxLines: null,
               minLines: 3,
               decoration: InputDecoration(
                 hintText: AppText.of(context).add_note_hint,

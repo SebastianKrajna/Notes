@@ -55,5 +55,9 @@
     "an_error_occurred_while_saving_note": "Nie udało się zapisać notatki",
     "@an_error_occurred_while_saving_note": {
         "description": "Tekst komunikatu o błędzie, gdy nie udało się zapisać notatki"
+    },
+    "random_failure_message": "Komunikat o błędzie losowym",
+    "@random_failure_message": {
+        "description": "Tekst komunikatu o błędzie, gdy wystąpi losowy błąd"
     }
 }

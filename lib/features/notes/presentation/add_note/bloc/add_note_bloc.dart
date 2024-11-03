@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:notes/core/localizations/generated/l10n.dart';
@@ -33,13 +35,22 @@ class AddNoteBloc extends Bloc<AddNoteEvent, AddNoteState> {
 
     await Future.delayed(const Duration(seconds: 1));
 
-    try {
+    final randomResult = Random().nextBool();
+
+    if (randomResult) {
+      try {
       await _noteRepository.addNote(state.content);
       emit(state.copyWith(status: AddNoteStatus.success));
     } catch (e) {
       emit(state.copyWith(
         status: AddNoteStatus.failure,
         errorMessage: AppText.current.an_error_occurred_while_saving_note,
+        ));
+      }
+    } else {
+      emit(state.copyWith(
+        status: AddNoteStatus.failure,
+        errorMessage: AppText.current.random_failure_message,
       ));
     }
   }

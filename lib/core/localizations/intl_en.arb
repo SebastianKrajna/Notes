@@ -55,5 +55,9 @@
     "an_error_occurred_while_saving_note": "An error occurred while saving the note",
     "@an_error_occurred_while_saving_note": {
         "description": "The text of the error message when an error occurred while saving the note"
+    },
+    "random_failure_message": "Random failure message",
+    "@random_failure_message": {
+        "description": "The text of the error message when a random failure occurs"
     }
 }

@@ -96,7 +96,7 @@ class _DotsIndicatorState extends State<DotsIndicator> with TickerProviderStateM
             distanceFromCenter: radiusAnimation.value,
             radians: rotationAnimation.value,
             dotRadius: widget.dotRadius,
-            color: Theme.of(context).colorScheme.onPrimary,
+            color: Theme.of(context).colorScheme.primary,
           ),
         );
       },
