@@ -1,0 +1,59 @@
+{
+    "@@locale": "pl",
+    "appName": "Notatki",
+    "@appName": {
+        "description": "Nazwa aplikacji"
+    },
+    "an_unknown_error_occurred": "Wystąpił nieznany błąd",
+    "@an_unknown_error_occurred": {
+        "description": "Tekst komunikatu o błędzie, gdy wystąpi nieznany błąd"
+    },
+    "try_again": "Spróbuj ponownie",
+    "@try_again": {
+        "description": "Tekst przycisku do ponownej próby"
+    },
+    "this_field_is_required": "To pole jest wymagane",
+    "@this_field_is_required": {
+        "description": "Tekst komunikatu o błędzie, gdy pole jest puste"
+    },
+    "please_ensure_the_date_is_valid": "Proszę upewnić się, że data jest prawidłowa",
+    "@please_ensure_the_date_is_valid": {
+        "description": "Tekst komunikatu o błędzie, gdy data jest nieprawidłowa"
+    },
+    "an_error_occurred_while_loading_notes": "Nie udało się załadować notatek",
+    "@an_error_occurred_while_loading_notes": {
+        "description": "Tekst komunikatu o błędzie, gdy nie udało się załadować notatek"
+    },
+    "add_note": "Dodaj notatkę",
+    "@add_note": {
+        "description": "Tekst przycisku do dodania nowej notatki"
+    },
+    "no_notes": "Brak notatek",
+    "@no_notes": {
+        "description": "Tekst komunikatu, gdy nie ma żadnych notatek"
+    },
+    "add_your_first_note": "Dodaj swoją pierwszą notatkę",
+    "@add_your_first_note": {
+        "description": "Tekst komunikatu, gdy nie ma żadnych notatek"
+    },
+    "note_added_successfully": "Notatka dodana pomyślnie",
+    "@note_added_successfully": {
+        "description": "Tekst komunikatu, gdy notatka została dodana pomyślnie"
+    },
+    "add_note_hint": "Wpisz treść notatki...",
+    "@add_note_hint": {
+        "description": "Tekst podpowiedzi w polu dodawania notatki"
+    },
+    "save": "Zapisz",
+    "@save": {
+        "description": "Tekst przycisku do zapisania notatki"
+    },
+    "note_cannot_be_empty": "Notatka nie może być pusta",
+    "@note_cannot_be_empty": {
+        "description": "Tekst komunikatu o błędzie, gdy notatka jest pusta"
+    },
+    "an_error_occurred_while_saving_note": "Nie udało się zapisać notatki",
+    "@an_error_occurred_while_saving_note": {
+        "description": "Tekst komunikatu o błędzie, gdy nie udało się zapisać notatki"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@@locale": "en",
+    "appName": "Notes",
+    "@appName": {
+        "description": "The name of the application"
+    },
+    "an_unknown_error_occurred": "An unknown error occurred",
+    "@an_unknown_error_occurred": {
+        "description": "The text of the error message when an unknown error occurs"
+    },
+    "try_again": "Try again",
+    "@try_again": {
+        "description": "The text of the button to try again"
+    },
+    "this_field_is_required": "This field is required",
+    "@this_field_is_required": {
+        "description": "The text of the error message when a required field is empty"
+    },
+    "please_ensure_the_date_is_valid": "Please ensure the date is valid",
+    "@please_ensure_the_date_is_valid": {
+        "description": "The text of the error message when the date is invalid"
+    },
+    "an_error_occurred_while_loading_notes": "An error occurred while loading notes",
+    "@an_error_occurred_while_loading_notes": {
+        "description": "The text of the error message when an error occurred while loading notes"
+    },
+    "add_note": "Add note",
+    "@add_note": {
+        "description": "The text of the button to add a new note"
+    },
+    "no_notes": "No notes",
+    "@no_notes": {
+        "description": "The text of the message when there are no notes"
+    },
+    "add_your_first_note": "Add your first note",
+    "@add_your_first_note": {
+        "description": "The text of the message when there are no notes"
+    },
+    "note_added_successfully": "Note added successfully",
+    "@note_added_successfully": {
+        "description": "The text of the message when the note is added successfully"
+    },
+    "add_note_hint": "Enter the note content...",
+    "@add_note_hint": {
+        "description": "The text of the hint in the add note page"
+    },
+    "save": "Save",
+    "@save": {
+        "description": "The text of the button to save the note"
+    },
+    "note_cannot_be_empty": "Note cannot be empty",
+    "@note_cannot_be_empty": {
+        "description": "The text of the error message when the note is empty"
+    },
+    "an_error_occurred_while_saving_note": "An error occurred while saving the note",
+    "@an_error_occurred_while_saving_note": {
+        "description": "The text of the error message when an error occurred while saving the note"
+    }
+}
