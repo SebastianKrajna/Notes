@@ -8,7 +8,7 @@ import 'package:notes/features/language/cubit/language_cubit.dart';
 import 'package:notes/features/notes/data/repositories/note_repository_impl.dart';
 import 'package:notes/features/notes/domain/repositories/note_repository.dart';
 import 'package:notes/features/notes/presentation/add_note/bloc/add_note_bloc.dart';
-import 'package:notes/features/notes/presentation/notes_list/bloc/notes_list_bloc.dart';  
+import 'package:notes/features/notes/presentation/notes_list/bloc/notes_list_bloc.dart';
 import 'package:notes/services/hive_service.dart';
 
 class App extends StatefulWidget {

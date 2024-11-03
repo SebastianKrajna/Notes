@@ -30,6 +30,7 @@ dependencies:
   shimmer: ^3.0.0
   formz: ^0.8.0 
   toastification: ^2.3.0
+  mockito: ^5.4.4
   
 
 dev_dependencies:
