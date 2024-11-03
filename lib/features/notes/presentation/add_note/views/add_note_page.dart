@@ -27,9 +27,12 @@ class _AddNotePageState extends State<AddNotePage> {
           );
           context.pop();
         } else if (state.status == AddNoteStatus.failure) {
-          context.showErrorToast(
-            description:
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
                 state.errorMessage ?? AppText.current.an_unknown_error_occurred,
+              ),
+            ),
           );
         }
       },
